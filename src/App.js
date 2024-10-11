@@ -125,14 +125,14 @@ function App() {
 
   return (
     <div className="App">
-      {/* Left side form */}
+   
       <div className="form-c">
         {step === 1 && <PersonalInfo nextStep={nextStep} handleChange={handleChange} formData={formData} />}
         {step === 2 && <AddressInfo nextStep={nextStep} prevStep={prevStep} handleChange={handleChange} formData={formData} />}
         {step === 3 && <Confirmation formData={formData} prevStep={prevStep} handleSubmit={handleSubmit} />}
       </div>
 
-      {/* Right side 3D scene */}
+      
       <div className="threejs">
         <Main />
       </div>
