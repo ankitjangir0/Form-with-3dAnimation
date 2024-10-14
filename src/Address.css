@@ -4,24 +4,24 @@
  
  .ai h2 {
     font-variant: small-caps;
-    color: #222;
+    color: white;
     text-align: center;
   }
   
   .ai label{
+    color: aliceblue;
     font-weight: bold;
     font-style: italic;
   }
   
 .ai input {
+  background-color: transparent;
     border: 0px;
     width: 95%; 
     padding: 10px; 
     margin: 8px 0; 
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #ddd;
     border-radius: 4px; 
-   
-    /* color: #fff;  */
     font-size: 16px;
   }
   
@@ -29,7 +29,7 @@
  .ai button{
     border: 0px;
     background-color: transparent; 
-    color: black;
+    color: white;
     border-bottom: 2px solid gray;
     padding: 10px 15px;
     margin: 5px; 

@@ -3,6 +3,7 @@
 }
 
 .ci h2{
+  color: white;
    font-variant: small-caps;
 }
 
@@ -11,7 +12,7 @@
 .ci button{
     border: 0px;
     background-color: transparent; 
-    color: black;
+    color: white;
     border-bottom: 2px solid gray;
     padding: 10px 15px;
     margin: 5px; 

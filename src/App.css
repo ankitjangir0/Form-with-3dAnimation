@@ -13,7 +13,7 @@ position: relative;
  
 
 }
-
+        
 .form-c{
   
   /* margin-top: -20%; */
@@ -23,7 +23,7 @@ position: relative;
   max-width: 550px;
   margin: 50px auto;
   background-color: transparent;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(12px);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(250, 248, 248, 0.1);
@@ -40,6 +40,7 @@ position: relative;
   z-index: 1;
 }
 .pi h2 {
+  font-variant: small-caps;
   margin-bottom: 20px;
   font-size: 24px;
   text-align: center;
@@ -71,7 +72,7 @@ position: relative;
   display: inline-block;
   background-color:transparent;
   border-bottom: 2px solid black;
-  color:gray;
+  color:white;
   padding: 10px 15px;
   font-size: 16px;
   cursor: pointer;
@@ -84,7 +85,7 @@ position: relative;
 color: white;
 border-bottom: 2px solid black;}
 
-button:disabled {
+.pi button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
 }
@@ -111,7 +112,7 @@ nav {
     margin: 20px auto;
   }
 
-  button {
+ .pi button {
     width: 100%;
     margin: 5px 0;
   }
